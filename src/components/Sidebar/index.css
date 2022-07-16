@@ -27,7 +27,7 @@
   width: 100%;
 }
 .nav-bar nav a {
-  font-size: 22px;
+  font-size: 28px;
   color: #fff;
   display: block;
   line-height: 51px;
@@ -84,10 +84,10 @@
 .nav-bar ul li a {
   padding: 7px 0;
   display: block;
-  font-size: 15px;
+  font-size: 19px;
   line-height: 16px;
   color: #4d4d4e;
 }
 .nav-bar ul li a:hover {
-  color: #ffd700;
+  background: #fff;
 }/*# sourceMappingURL=index.css.map */
