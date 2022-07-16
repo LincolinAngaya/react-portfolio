@@ -26,7 +26,7 @@
         width: 100%;
         a {
             font-size: 22px;
-            color: #4d4d4e;
+            color: #fff;
             display: block;
             line-height: 51px;
             height: 51px;
@@ -36,8 +36,8 @@
                 transition: all 0.3s ease-out;
             }
             &:hover {
-                color: #ffd700;
-                svg {
+                color: #fff;
+                font svg {
                     opacity: 0;
                 }
                 &:after {
@@ -76,11 +76,6 @@
         a.portfolio-link {
             &:after {
                 content: 'PORTFOLIO';
-            }
-        }
-        a.active {
-            svg {
-                color: #ffd700;
             }
         }
     }
