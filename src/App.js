@@ -3,6 +3,7 @@ import './App.scss';
 import {Routes, Route} from 'react-router-dom'
 import Layout from './components/Layout/Index';
 import Home from './components/Home/index';
+import About from './components/About';
 
 
 
@@ -11,10 +12,11 @@ function App() {
     <>
     <Routes>
       <Route path="/" element={<Layout />}/>
+      <Route   path="/"  element={<Home />}/>
+     <Route  path="about" element={<About />}/>
     </Routes>
-    <Routes>
-    <Route  index element={<Home />}/>
-    </Routes>
+    
+    
    
     </>
   );
