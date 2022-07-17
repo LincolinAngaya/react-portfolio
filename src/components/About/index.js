@@ -1,6 +1,6 @@
-
+import { Link} from 'react-router-dom';
 import {
-  faAngular,
+  
   faCss3,
   faGitAlt,
   faHtml5,
@@ -9,14 +9,17 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
+import Sidebar from '../Sidebar/Index'
 
 const About = () => {
   
 
   return (
     <>
+    < Sidebar/>
       <div className="container about-page">
         <div className="text-zone">
           <h1>
@@ -36,12 +39,13 @@ const About = () => {
             person, father of a beautiful daughter, a sports fanatic,
             photography enthusiast, and tech-obsessed!!!
           </p>
+          <Link to="/contact" className='flat-button'>CONTACT ME</Link>
         </div>
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+              <FontAwesomeIcon icon={faReact} color="#DD0031" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />
@@ -49,12 +53,11 @@ const About = () => {
             <div className="face3">
               <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
             </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-            </div>
+           
             <div className="face5">
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
             </div>
+            
             <div className="face6">
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
             </div>
@@ -62,6 +65,7 @@ const About = () => {
         </div>
       </div>
       <Loader type="pacman" />
+     
     </>
   )
 }
