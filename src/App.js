@@ -4,6 +4,7 @@ import {Routes, Route} from 'react-router-dom'
 import Layout from './components/Layout/Index';
 import Home from './components/Home/index';
 import About from './components/About';
+import Contact from './components/Contact';
 
 
 
@@ -19,6 +20,9 @@ function App() {
     </Routes>
     <Routes>
     <Route  path="about" element={<About />}/>
+    </Routes>
+    <Routes>
+    <Route  path="contact" element={<Contact />}/>
     </Routes>
    
    
