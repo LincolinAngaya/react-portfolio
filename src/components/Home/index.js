@@ -3,6 +3,7 @@ import React from 'react'
 import { useEffect, useState } from 'react'
 import './index.scss'
 import { Link} from 'react-router-dom';
+import Logo from './Logo';
 
 const Home = () => {
 
@@ -19,6 +20,7 @@ const Home = () => {
             <h2>Graphic Designer |I.T Support |ICT Officer</h2>
             <Link to="/contact" className='flat-button'>CONTACT ME</Link>
         </div>
+        <Logo />
     </div>
     
     </>
