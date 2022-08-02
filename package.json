@@ -2,7 +2,7 @@
     "name": "react-portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://LincolinAngaya.github.io/react-gh-pages",
+    "homepage": "https://LincolinAngaya.github.io/react-portfolio",
     "dependencies": {
         "@emailjs/browser": "^3.6.2",
         "@fortawesome/free-brands-svg-icons": "^6.1.1",
@@ -49,5 +49,9 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependecies": {},
+    "devDependencies": {
+        "gh-pages": "^4.0.0"
     }
 }
