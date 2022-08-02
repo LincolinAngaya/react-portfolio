@@ -5,6 +5,7 @@ import Layout from './components/Layout/Index';
 import Home from './components/Home/index';
 import About from './components/About';
 import Contact from './components/Contact';
+import Skills from './components/skills'
 
 
 
@@ -23,6 +24,9 @@ function App() {
     </Routes>
     <Routes>
     <Route  path="contact" element={<Contact />}/>
+    </Routes>
+    <Routes>
+    <Route  path="skills" element={<Skills />}/>
     </Routes>
    
    
