@@ -1,13 +1,38 @@
-import React from 'react'
+import { Link} from 'react-router-dom';
+import {
+  
+  faCss3,
+  faGitAlt,
+  faHtml5,
+  faJsSquare,
+  faReact,
+} from '@fortawesome/free-brands-svg-icons'
+import Loader from 'react-loaders'
 
-function Project() {
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './index.scss'
+import Sidebar from '../Sidebar/Index'
+
+const Project = () => {
+  
+
   return (
-    <div>
-      <h1>hello im your projects
-        
-      </h1>
-    </div>
+    <>
+    < Sidebar/>
+      <div className="container about-page">
+        <div className="text-zone">
+          <h1>
+           My Projects
+          </h1>
+          
+        </div>
+
+      </div>
+      
+     
+    </>
   )
 }
 
-export default Project
+export default Project;
