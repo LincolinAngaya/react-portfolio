@@ -33,7 +33,7 @@ const Sidebar= () => {
      </nav>
      <ul>
         <li>
-       <a target="_blank" rel="noreferrer" href="">
+       <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/lincoln-angaya">
        <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
        </a>
         </li>
@@ -43,7 +43,7 @@ const Sidebar= () => {
        </a>
         </li>
         <li>
-       <a target="_blank" rel="noreferrer" href="">
+       <a target="_blank" rel="noreferrer" href="https://www.instagram.com/lincolinse">
        <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
        </a>
         </li>
@@ -53,7 +53,7 @@ const Sidebar= () => {
        </a>
         </li>
         <li>
-       <a target="_blank" rel="noreferrer" href="">
+       <a target="_blank" rel="noreferrer" href="https://github.com/LincolinAngaya">
        <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
        </a>
         </li>
