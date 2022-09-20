@@ -43,7 +43,7 @@ const Contact = () => {
            
           </h1>
           <p>
-            I am interested in freelance opportunities - especially ambitious or
+            I am interested in software development opportunities - especially ambitious or
             large projects. However, if you have other request or question,
             don't hesitate to contact me using below form either.
           </p>
@@ -86,11 +86,11 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Langata-Nairobi,
+          Nairobi-Kenya,
           <br />
-          Kenya,
+          +254748923137
           <br />
-          Karen CrossRoads 19, 22000 <br />
+          +254793863208 <br />
           
           <span>lincolinangaya5626@gmail.com.com</span>
         </div>
