@@ -25,7 +25,7 @@ const About = () => {
           <h1>
            About Me
           </h1>
-          <p>My name is <b>Lincolin Angaya</b> Information Communication Technology graduate with certification in software development and with two-year of experience in the field. I am based in 
+          <p>My name is <b>Lincolin Angaya</b> Information Communication Technology graduate with certification in software engineering and with two-year of experience in the field. I am based in 
           <b>Nairobi, Kenya</b>.<br />I am a dynamic Junior Software Developer with a passion for Full Stack software development.<br />I have learned several languages/libraries and frameworks for experience to work in a fast-growing company where I will use my excellent technical skills such as Javascript, React Js, Ruby,  and ruby on rails to deliver best of its software development and digital solutions satisfaction. I will also apply my communication, critical, and leadership skills which will enhance a conducive working environment and increase returns for the company.</p>
           {/*
           <p>
